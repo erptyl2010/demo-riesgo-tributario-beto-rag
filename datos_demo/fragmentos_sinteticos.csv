@@ -1,0 +1,10 @@
+doc_id,pagina,tipo,texto
+FACTURA_DEMO_001,1,Factura,"Factura sintetica por utiles de oficina. Detalla papel, archivadores y suministros; coincide con la orden de compra DEMO-OC-001."
+CONFORMIDAD_DEMO_001,2,Acta de conformidad,"El area usuaria confirma la recepcion de los suministros en cantidad y fecha acordadas, sin observaciones pendientes."
+EXPEDIENTE_REPRESENTACION_002,1,Expediente de gasto,"El expediente del gasto de representacion contiene comprobante y agenda, pero no incluye la lista completa de asistentes ni evidencia del motivo comercial."
+POLITICA_REPRESENTACION_001,3,Politica interna,"Los gastos de representacion deben vincularse con una finalidad comercial, identificar participantes y conservar comprobantes y evidencia de la actividad."
+SERVICIO_MANTENIMIENTO_003,2,Orden de servicio,"La orden describe mantenimiento preventivo de equipos. La conformidad del servicio figura pendiente de firma del area solicitante."
+ALERTA_PROVEEDOR_004,1,Validacion tributaria,"La validacion sintetica registra al proveedor como no habido en la fecha de consulta; corresponde revisar la operacion antes de usar el credito fiscal."
+COMPROBANTE_OBSERVADO_005,1,Validacion de comprobante,"El comprobante consultado presenta estado no valido. La alerta debe priorizarse aunque la descripcion de la compra parezca regular."
+GUIA_RECEPCION_006,4,Guia de control,"Cuando se adquieren bienes, la trazabilidad minima vincula orden, comprobante, guia de remision, evidencia de recepcion y asiento contable."
+

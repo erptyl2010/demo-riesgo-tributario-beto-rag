@@ -1,0 +1,16 @@
+__pycache__/
+.streamlit/secrets.toml
+.pytest_cache/
+*.py[cod]
+
+# Nunca agregar fuentes reales a este repositorio publico.
+Data Empresa/
+Problema/
+Anexos/
+data/
+chroma_sustento_pdf/
+*.xlsx
+*.xls
+*.pdf
+*.txt
+

@@ -1,0 +1,8 @@
+operation_id,periodo,proveedor,glosa,importe,riesgo_referencia
+DEMO-2026-001,202606,Proveedor Alfa SAC,Compra de utiles de oficina con factura y orden aprobada,480.50,Bajo Riesgo
+DEMO-2026-002,202606,Servicios Beta EIRL,Servicio de mantenimiento con conformidad pendiente,1320.00,Medio Riesgo
+DEMO-2026-003,202606,Comercial Gamma SAC,Adquisicion sin constancia de recepcion ni contrato,8450.00,Alto Riesgo
+DEMO-2026-004,202606,Consultores Delta SAC,Asesoria especializada con informe y comprobante valido,2850.00,Bajo Riesgo
+DEMO-2026-005,202606,Eventos Epsilon EIRL,Gasto de representacion con lista de asistentes incompleta,1960.00,Medio Riesgo
+DEMO-2026-006,202606,Transportes Zeta SAC,Servicio de transporte respaldado por guia y conformidad,730.00,Bajo Riesgo
+
