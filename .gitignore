@@ -14,3 +14,5 @@ chroma_sustento_pdf/
 *.pdf
 *.txt
 
+# requirements.txt es parte obligatoria del despliegue de Streamlit.
+!requirements.txt

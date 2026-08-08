@@ -1,0 +1,6 @@
+streamlit==1.58.0
+pandas==3.0.3
+torch==2.12.1
+transformers==5.12.1
+safetensors>=0.6,<1
+
