@@ -4,6 +4,14 @@ Aplicacion Streamlit independiente para la sustentacion del proyecto de PLN. El
 repositorio contiene solo datos sinteticos. No se deben agregar registros SIRE,
 PLE, RUC, comprobantes ni documentos reales de la empresa.
 
+## Aplicacion publicada
+
+- Demo interactiva: https://tributia-riesgo-pln.streamlit.app/
+- Repositorio: https://github.com/erptyl2010/demo-riesgo-tributario-beto-rag
+
+La primera inferencia puede tardar algunos segundos mientras BETO se carga en
+memoria. Las siguientes consultas reutilizan el modelo mediante cache.
+
 ## Arquitectura de la demo
 
 - Clasificacion triclase con el BETO ajustado: Bajo, Medio y Alto Riesgo.
@@ -19,6 +27,12 @@ Desde la carpeta `demo_publica_streamlit`:
 ```powershell
 python -m pip install -r requirements.txt
 python -m streamlit run app.py
+```
+
+Como alternativa, ejecute el lanzador incluido:
+
+```powershell
+powershell -ExecutionPolicy Bypass -File .\iniciar_demo_local.ps1
 ```
 
 Para probar sin duplicar el modelo durante el desarrollo:
@@ -66,4 +80,3 @@ ejecute `git push -u origin main`.
 Las metricas corresponden a un holdout academico de 18 casos, derivado de 90
 operaciones etiquetadas. El resultado es preliminar y no debe interpretarse como
 una validacion productiva o asesoria tributaria.
-
